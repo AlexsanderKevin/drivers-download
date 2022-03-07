@@ -1,0 +1,23 @@
+{
+  "name": "drivers-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "drivers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexsanderKevin/drivers-download.git"
+  },
+  "author": "Kevin Alexsander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexsanderKevin/drivers-download/issues"
+  },
+  "homepage": "https://github.com/AlexsanderKevin/drivers-download#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
