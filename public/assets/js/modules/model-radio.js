@@ -1,11 +1,8 @@
-export default class ModelRadio {
+export default class DeviceElements {
     constructor(obj) {
         this.device = obj.device;
         this.id = obj.device.replace(' ', '').toLowerCase();
-        this.bios = obj.bios;
-        this.audio = obj.audio;
-        this.camera = obj.camera;
-        this.keyboard = obj.keyboard;
+        this.drivers = obj.drivers;
     }
 
     radio() {
@@ -26,5 +23,12 @@ export default class ModelRadio {
         label.setAttribute('data-model', '');
 
         return label;
+    }
+
+    driverCard() {
+        const card = document.createElement('div');
+        console.log(this.drivers);
+
+        return card;
     }
 }

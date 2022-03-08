@@ -12,33 +12,17 @@
     <section class="devices-section">
         <header class="devices-container-header">
             <span class="title">Modelos</span>
-            <input type="text" name="search-device" id="">
+            <input class="search-input" type="text" name="search-device" id="">
             <button class="search" title="Pesquisar">P</button>
 
         </header>
 
-        <div class="devices-container">
-            <input type="radio" name="device-model" id="s145-15api">
-            <label class="device-label active" for="s145-15api">S145-15API</label>
-
-            <input type="radio" name="device-model" id="s145-15iil">
-            <label class="device-label" for="s145-15iil">S145-15IIL</label>
-
-            <input type="radio" name="device-model" id="s145-15iwl">
-            <label class="device-label" for="s145-15iwl">S145-15IWL</label>
-
-            <input type="radio" name="device-model" id="s145-15ikb">
-            <label class="device-label" for="s145-15ikb">S145-15IKB</label>
-
-            <input type="radio" name="device-model" id="s145-15igm">
-            <label class="device-label" for="s145-15igm">S145-15IGM</label>
-
-        </div>
+        <div data-container="devices" class="devices-container"></div>
     </section>
 
     <section class="drivers-section">
         <header>Drivers</header>
-        <div class="drivers-container">
+        <div data-container="drivers" class="drivers-container">
             <div class="driver-card active">
                 <span class="driver-type">BIOS</span>
                 <div class="center-info">
@@ -77,6 +61,6 @@
         </div>
     </section>
 
-    <script src="assets/js/script.js"></script> 
+    <script type="module" src="assets/js/script.js"></script> 
 </body>
 </html> 

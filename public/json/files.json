@@ -1,0 +1,112 @@
+[
+    {
+        "device": "S145-15API",
+        "drivers":[
+            {
+                "type": "BIOS",
+                "path": "assets/files/s145/api/bios/bucn29ww.exe"
+            },
+            {
+                "type": "Audio",
+                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe"
+            },
+            {
+                "type": "Camera",
+                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe" 
+            },
+            {
+                "type": "Teclado - Mouse",
+                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe"
+            }
+        ],
+        "updated_at": "08/03/2002"
+    },
+    {
+        "device": "S145-15IIL",
+        "drivers":[
+            {
+                "type": "BIOS",
+                "path": "assets/files/s145/api/bios/bucn29ww.exe"
+            },
+            {
+                "type": "Audio",
+                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe"
+            },
+            {
+                "type": "Camera",
+                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe" 
+            },
+            {
+                "type": "Teclado - Mouse",
+                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe"
+            }
+        ],
+        "updated_at": "08/03/2002"
+    },
+    {
+        "device": "S145-15IWL",
+        "drivers":[
+            {
+                "type": "BIOS",
+                "path": "assets/files/s145/api/bios/bucn29ww.exe"
+            },
+            {
+                "type": "Audio",
+                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe"
+            },
+            {
+                "type": "Camera",
+                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe" 
+            },
+            {
+                "type": "Teclado - Mouse",
+                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe"
+            }
+        ],
+        "updated_at": "08/03/2002"
+    },
+    {
+        "device": "S145-15IGM",
+        "drivers":[
+            {
+                "type": "BIOS",
+                "path": "assets/files/s145/api/bios/bucn29ww.exe"
+            },
+            {
+                "type": "Audio",
+                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe"
+            },
+            {
+                "type": "Camera",
+                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe" 
+            },
+            {
+                "type": "Teclado - Mouse",
+                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe"
+            }
+        ],
+        "updated_at": "08/03/2002"
+    },
+    {
+        "device": "S145-15IKB",
+        "drivers":[
+            {
+                "type": "BIOS",
+                "path": "assets/files/s145/api/bios/bucn29ww.exe"
+            },
+            {
+                "type": "Audio",
+                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe"
+            },
+            {
+                "type": "Camera",
+                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe" 
+            },
+            {
+                "type": "Teclado - Mouse",
+                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe"
+            }
+        ],
+        "updated_at": "08/03/2002"
+    }
+]
