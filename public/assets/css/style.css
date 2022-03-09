@@ -7,7 +7,7 @@
 body {
     display: grid;
     grid-template-columns: 1fr 20vw 60vw 1fr;
-    gap: 60px;
+    gap: 80px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: #212121;
 }
@@ -41,6 +41,7 @@ input {
     font-size: 20pt;
     padding: 20px 30px;
     cursor: pointer;
+    border-bottom: solid 3px #212121;
 }
 
 .device-label.active{
@@ -64,6 +65,12 @@ input {
 .drivers-container {
     border: solid 2px #535353;
     border-radius: 5px;
+    display: none;
+    flex-direction: column;
+}
+
+.drivers-container.active {
+    display: flex;
 }
 
 .driver-card {
@@ -78,7 +85,7 @@ input {
     display: block;
 }
 
-.active .alteration-date {
+.driver-card.active .alteration-date {
     color: #9E9E9E;
 }
 
@@ -86,7 +93,7 @@ input {
     color: #414141;
 }
 
-.active .driver-name {
+.driver-card.active .driver-name {
     color: #57AEFF;
 }
 
@@ -95,7 +102,7 @@ input {
     font-size: 17pt;
 }
 
-.active .driver-type {
+.driver-card.active .driver-type {
     color: #fff;
 }
 
@@ -110,7 +117,7 @@ input {
     grid-column: 2/3;
 }
 
-.active .download-link{
+.driver-card.active .download-link{
     color: #fff;
     background-color: #2ED653;
 }
