@@ -14,15 +14,15 @@ async function initComponents() {
         devicesContainer.appendChild(deviceElement.label());
         driversSection.appendChild(deviceElement.driversContainer());
 
-        let accArray = acc;
-        accArray = {
+        let accObj = acc;
+        accObj = {
             models: {
                 input: [...devicesContainer.querySelectorAll('[data-model=input]')],
                 label: [...devicesContainer.querySelectorAll('[data-model=label]')],
             },
             drivers: [...driversSection.querySelectorAll('[data-container=drivers]')],
         };
-        return accArray;
+        return accObj;
     }, {});
 
     devicesElements.models.label[0].classList.add('active');

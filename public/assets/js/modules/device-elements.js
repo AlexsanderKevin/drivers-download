@@ -1,3 +1,5 @@
+import handleMouseEnter from './handle-mouse-enter-card.js';
+
 export default class DeviceElements {
     constructor(obj) {
         this.device = obj.device;
@@ -28,6 +30,7 @@ export default class DeviceElements {
     driverCard(driver) {
         const cardElement = document.createElement('div');
         cardElement.classList.add('driver-card');
+        cardElement.setAttribute('data-card', '');
 
         const type = document.createElement('span');
         type.classList.add('driver-type');
@@ -66,8 +69,12 @@ export default class DeviceElements {
         drivers.forEach((driver, index) => {
             const card = this.driverCard(driver);
             container.appendChild(card);
-
             if (index === 0) card.classList.add('active');
+        });
+
+        const cards = container.querySelectorAll('[data-card]');
+        cards.forEach((card) => {
+            card.addEventListener('mouseenter', handleMouseEnter);
         });
 
         return container;
