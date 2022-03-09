@@ -1,4 +1,5 @@
 import handleMouseEnter from './handle-mouse-enter-card.js';
+import DriverCard from './driver-card.js';
 
 export default class DeviceElements {
     constructor(obj) {
@@ -27,39 +28,6 @@ export default class DeviceElements {
         return label;
     }
 
-    driverCard(driver) {
-        const cardElement = document.createElement('div');
-        cardElement.classList.add('driver-card');
-        cardElement.setAttribute('data-card', '');
-
-        const type = document.createElement('span');
-        type.classList.add('driver-type');
-        type.innerText = driver.type;
-
-        const centerInfo = document.createElement('div');
-        centerInfo.classList.add('center-info');
-
-        const updatedAt = document.createElement('span');
-        updatedAt.classList.add('alteration-date');
-        updatedAt.innerText = driver.updated_at;
-
-        const driverName = document.createElement('span');
-        driverName.classList.add('driver-name');
-        driverName.innerText = 'driver-version-tralala';
-        centerInfo.appendChild(updatedAt);
-        centerInfo.appendChild(driverName);
-
-        const downloadButton = document.createElement('a');
-        downloadButton.setAttribute('href', driver.path);
-        downloadButton.classList.add('download-link');
-        downloadButton.innerText = 'Download';
-
-        cardElement.appendChild(type);
-        cardElement.appendChild(centerInfo);
-        cardElement.appendChild(downloadButton);
-        return cardElement;
-    }
-
     driversContainer() {
         const container = document.createElement('div');
         container.setAttribute('data-container', 'drivers');
@@ -67,7 +35,7 @@ export default class DeviceElements {
         const { drivers } = this;
 
         drivers.forEach((driver, index) => {
-            const card = this.driverCard(driver);
+            const card = new DriverCard(driver).element();
             container.appendChild(card);
             if (index === 0) card.classList.add('active');
         });
