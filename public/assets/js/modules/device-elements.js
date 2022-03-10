@@ -14,6 +14,7 @@ export default class DeviceElements {
         radioInput.setAttribute('name', 'device-model');
         radioInput.setAttribute('id', this.id);
         radioInput.setAttribute('data-model', 'input');
+        radioInput.setAttribute('data-target', this.id);
 
         return radioInput;
     }
@@ -24,6 +25,7 @@ export default class DeviceElements {
         label.setAttribute('for', this.id);
         label.innerText = this.device;
         label.setAttribute('data-model', 'label');
+        label.setAttribute('data-target', this.id);
 
         return label;
     }
@@ -31,6 +33,7 @@ export default class DeviceElements {
     driversContainer() {
         const container = document.createElement('div');
         container.setAttribute('data-container', 'drivers');
+        container.setAttribute('data-target', this.id);
         container.classList.add('drivers-container');
         const { drivers } = this;
 
