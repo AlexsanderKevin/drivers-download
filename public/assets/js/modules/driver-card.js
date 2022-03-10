@@ -16,7 +16,7 @@ export default class DriverCard {
     centerInfoContainer() {
         const driverName = document.createElement('span');
         driverName.classList.add('driver-name');
-        const regexp = /\/?[a-zA-Z0-9\-]+\//g;
+        const regexp = /\/?[a-zA-Z0-9-]+\//g;
         driverName.innerHTML = this.path.replace(regexp, '');
 
         const updatedAt = document.createElement('span');
