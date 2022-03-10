@@ -38,8 +38,8 @@ input {
 .device-label {
     color: #a8a8a8;
     font-weight: bold;
-    font-size: 20pt;
-    padding: 20px 30px;
+    font-size: 18pt;
+    padding: 15px 30px;
     cursor: pointer;
     border-bottom: solid 3px #212121;
 }
@@ -71,6 +71,7 @@ input {
 
 .drivers-container.active {
     display: flex;
+    animation: .5s slideAndFade forwards;
 }
 
 .driver-card {
@@ -87,6 +88,7 @@ input {
 
 .driver-card.active .alteration-date {
     color: #9E9E9E;
+    transition: .2s;
 }
 
 .alteration-date {
@@ -95,6 +97,7 @@ input {
 
 .driver-card.active .driver-name {
     color: #57AEFF;
+    transition: .2s;
 }
 
 .driver-name {
@@ -104,6 +107,7 @@ input {
 
 .driver-card.active .driver-type {
     color: #fff;
+    transition: .2s;
 }
 
 .driver-type {
@@ -120,6 +124,7 @@ input {
 .driver-card.active .download-link{
     color: #fff;
     background-color: #2ED653;
+    transition: .2s;
 }
 
 .download-link {
@@ -150,4 +155,15 @@ input {
 .devices-container-header {
     display: flex;
     justify-content: space-between;
+}
+
+@keyframes slideAndFade {
+    from {
+        opacity: 0;
+        transform: translate3d(-30px, 0, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }

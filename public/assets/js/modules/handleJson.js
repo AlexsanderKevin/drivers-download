@@ -30,7 +30,7 @@ export default async function handleJson() {
     }, {});
 
     devicesElements.models.label[0].classList.add('active');
-    devicesElements.drivers[1].classList.add('active');
+    devicesElements.drivers[0].classList.add('active');
 
     const { label: labels } = devicesElements.models;
     const { drivers } = devicesElements;
