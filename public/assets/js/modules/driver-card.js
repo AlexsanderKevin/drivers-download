@@ -9,7 +9,6 @@ export default class DriverCard {
         const type = document.createElement('span');
         type.classList.add('driver-type');
         type.innerText = this.type;
-
         return type;
     }
 

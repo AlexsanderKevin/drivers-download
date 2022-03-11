@@ -146,15 +146,42 @@ input {
     color: #999;
 }
 
+.search.active {
+    color: #fff;
+}
+
 .search:hover {
     color: #fff;
     cursor: pointer;
     transition: .2s;
 }
 
+.search-input {
+    display: none;
+    padding: 3px 10px;
+    font-size: 15pt;
+    max-width: 80%;
+    border-radius: 5px;
+    background: #444;
+    border: none;
+    color: #ddd;
+}
+
+.search-input.active {
+    display: flex;
+}
+
 .devices-container-header {
     display: flex;
     justify-content: space-between;
+}
+
+.devices-container-header .title{
+    display: none;
+}
+
+.devices-container-header .title.active{
+    display: flex;
 }
 
 @keyframes slideAndFade {
