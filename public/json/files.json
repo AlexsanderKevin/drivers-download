@@ -4,22 +4,22 @@
         "drivers":[
             {
                 "type": "BIOS",
-                "path": "assets/files/s145/api/bios/bucn29ww.exe",
+                "path": "bucn29ww.exe",
                 "updated_at": "08/03/2002"
             },
             {
                 "type": "Audio",
-                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe",
+                "path": "njlc0kaf402c90.exe",
                 "updated_at": "08/03/2002"
             },
             {
                 "type": "Camera",
-                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe",
+                "path": "9u4c0haf4005a0.exe",
                 "updated_at": "08/03/2002" 
             },
             {
                 "type": "Teclado - Mouse",
-                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe",
+                "path": "6yst020fxhamy0c0.exe",
                 "updated_at": "03/03/2002"
             }
         ]
@@ -29,22 +29,22 @@
         "drivers":[
             {
                 "type": "BIOS",
-                "path": "assets/files/s145/api/bios/bucn53ww.exe",
+                "path": "bucn53ww.exe",
                 "updated_at": "06/03/2002"
             },
             {
                 "type": "Audio",
-                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe",
+                "path": "njlc0kaf402c90.exe",
                 "updated_at": "08/03/2002"
             },
             {
                 "type": "Camera",
-                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe",
+                "path": "9u4c0haf4005a0.exe",
                 "updated_at": "08/03/2002" 
             },
             {
                 "type": "Teclado - Mouse",
-                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe",
+                "path": "6yst020fxhamy0c0.exe",
                 "updated_at": "08/03/2002"
             }
         ]
@@ -54,22 +54,22 @@
         "drivers":[
             {
                 "type": "BIOS",
-                "path": "assets/files/s145/api/bios/bucn48ww.exe",
+                "path": "bucn48ww.exe",
                 "updated_at": "04/03/2002"
             },
             {
                 "type": "Audio",
-                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe",
+                "path": "njlc0kaf402c90.exe",
                 "updated_at": "08/03/2002"
             },
             {
                 "type": "Camera",
-                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe",
+                "path": "9u4c0haf4005a0.exe",
                 "updated_at": "03/03/2002" 
             },
             {
                 "type": "Teclado - Mouse",
-                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe",
+                "path": "6yst020fxhamy0c0.exe",
                 "updated_at": "08/03/2002"
             }
         ]
@@ -79,22 +79,22 @@
         "drivers":[
             {
                 "type": "BIOS",
-                "path": "assets/files/s145/api/bios/bucn27ww.exe",
+                "path": "awcn27ww.exe",
                 "updated_at": "08/03/2002"
             },
             {
                 "type": "Audio",
-                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe",
+                "path": "njlc0kaf402c90.exe",
                 "updated_at": "09/03/2002"
             },
             {
                 "type": "Camera",
-                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe",
+                "path": "9u4c0haf4005a0.exe",
                 "updated_at": "08/03/2002" 
             },
             {
                 "type": "Teclado - Mouse",
-                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe",
+                "path": "6yst020fxhamy0c0.exe",
                 "updated_at": "09/03/2002"
             }
         ]
@@ -104,22 +104,22 @@
         "drivers":[
             {
                 "type": "BIOS",
-                "path": "assets/files/s145/api/bios/bucn17ww.exe",
+                "path": "bucn17ww.exe",
                 "updated_at": "03/03/2002"
             },
             {
                 "type": "Audio",
-                "path": "assets/files/s145/api/audio/njlc0kaf402c90.exe",
+                "path": "njlc0kaf402c90.exe",
                 "updated_at": "07/03/2002"
             },
             {
                 "type": "Camera",
-                "path": "assets/files/s145/api/camera/9u4c0haf4005a0.exe",
+                "path": "9u4c0haf4005a0.exe",
                 "updated_at": "08/03/2002" 
             },
             {
                 "type": "Teclado - Mouse",
-                "path": "assets/files/s145/api/teclado-mouse/6yst020fxhamy0c0.exe",
+                "path": "6yst020fxhamy0c0.exe",
                 "updated_at": "08/03/2002"
             }
         ]

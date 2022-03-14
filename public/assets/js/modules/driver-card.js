@@ -15,7 +15,7 @@ export default class DriverCard {
     centerInfoContainer() {
         const driverName = document.createElement('span');
         driverName.classList.add('driver-name');
-        const regexp = /\/?[a-zA-Z0-9-]+\//g;
+        const regexp = /(\.exe)/g;
         driverName.innerHTML = this.path.replace(regexp, '');
 
         const updatedAt = document.createElement('span');
@@ -32,7 +32,7 @@ export default class DriverCard {
     downloadButton() {
         const button = document.createElement('a');
         button.classList.add('download-link');
-        button.setAttribute('href', this.path);
+        button.setAttribute('href', `https://download.lenovo.com/consumer/mobiles/${this.path}`);
         button.innerText = 'Download';
         return button;
     }
